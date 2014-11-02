@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kg-ontv"
+       name="KG OnTV"
+       version="0.4.80"
+       provider-name="delletenebre@gmail.com">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="KGOnTV XBMC Add-ons">
+    <info compressed="true">http://xbmc-kg-ontv.googlecode.com/svn/trunk/addons.xml</info>
+    <checksum>http://xbmc-kg-ontv.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+    <datadir zip="false">http://xbmc-kg-ontv.googlecode.com/svn/trunk</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KG OnTV - watch online videos found at *.kg sites</summary>
+    <description lang="en">
+KG OnTV - watch online videos found at *.kg sites:
+    * BLive (http://blive.kg/)
+    * OBS.KG (http://obs.kg/)
+    * TS.KG (http://ts.kg/)
+    * Namba.Kinozal (http://movie.namba.kg/)
+    * Namba.Serialy (http://serials.namba.kg/)
+    * Online TV (http://onlinetv.kg/)
+    * Cinema Online (http://cinemaonline.kg/)
+    * Sport.IPTV.kg (http://sport.iptv.kg/)
+    * Movies.888.kg (http://movies.888.kg/)
+    * Kivi!kg (http://kivi.kg/)
+    </description>
+    <summary lang="ru">KG OnTV - просмотр видео с любимых сайтов в зоне *.kg</summary>
+    <description lang="ru">
+KG OnTV - просмотр видео с лучших сайтов Кыргызстана. Включает в себя:
+    * Билайв (http://blive.kg/)
+    * OBS.KG (http://obs.kg/)
+    * TS.KG (http://ts.kg/)
+    * Namba.Кинозал (http://movie.namba.kg/)
+    * Namba.Сериалы (http://serials.namba.kg/)
+    * Online TV (http://onlinetv.kg/)
+    * Cinema Online (http://cinemaonline.kg/)
+    * Sport.IPTV.kg (http://sport.iptv.kg/)
+    * Кинозал 888.kg (http://movies.888.kg/)
+    * Kivi!kg (http://kivi.kg/)
+    </description>
+    <platform>all</platform>
+  </extension>
+
+</addon>

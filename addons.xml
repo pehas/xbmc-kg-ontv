@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.kg-ontv"
+       name="KG OnTV"
+       version="0.4.80"
+       provider-name="delletenebre@gmail.com">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="KGOnTV XBMC Add-ons">
+    <info compressed="true">http://xbmc-kg-ontv.googlecode.com/svn/trunk/addons.xml</info>
+    <checksum>http://xbmc-kg-ontv.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+    <datadir zip="false">http://xbmc-kg-ontv.googlecode.com/svn/trunk</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KG OnTV - watch online videos found at *.kg sites</summary>
+    <description lang="en">
+KG OnTV - watch online videos found at *.kg sites:
+    * BLive (http://blive.kg/)
+    * OBS.KG (http://obs.kg/)
+    * TS.KG (http://ts.kg/)
+    * Namba.Kinozal (http://movie.namba.kg/)
+    * Namba.Serialy (http://serials.namba.kg/)
+    * Online TV (http://onlinetv.kg/)
+    * Cinema Online (http://cinemaonline.kg/)
+    * Sport.IPTV.kg (http://sport.iptv.kg/)
+    * Movies.888.kg (http://movies.888.kg/)
+    * Kivi!kg (http://kivi.kg/)
+    </description>
+    <summary lang="ru">KG OnTV - просмотр видео с любимых сайтов в зоне *.kg</summary>
+    <description lang="ru">
+KG OnTV - просмотр видео с лучших сайтов Кыргызстана. Включает в себя:
+    * Билайв (http://blive.kg/)
+    * OBS.KG (http://obs.kg/)
+    * TS.KG (http://ts.kg/)
+    * Namba.Кинозал (http://movie.namba.kg/)
+    * Namba.Сериалы (http://serials.namba.kg/)
+    * Online TV (http://onlinetv.kg/)
+    * Cinema Online (http://cinemaonline.kg/)
+    * Sport.IPTV.kg (http://sport.iptv.kg/)
+    * Кинозал 888.kg (http://movies.888.kg/)
+    * Kivi!kg (http://kivi.kg/)
+    </description>
+    <platform>all</platform>
+  </extension>
+
+</addon>
+
+<addon id="plugin.video.kilogramme"
+       name="KiloGramme"
+       version="1.3.3"
+       provider-name="delletenebre@gmail.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="KGOnTV XBMC Add-ons">
+    <info compressed="true">https://xbmc-kg-ontv.googlecode.com/svn/trunk/addons.xml</info>
+    <checksum>https://xbmc-kg-ontv.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+    <datadir zip="false">https://xbmc-kg-ontv.googlecode.com/svn/trunk</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KiloGramme - watch online videos found at *.kg sites</summary>
+    <description lang="en">
+KiloGramme - watch online videos found at *.kg sites:
+    * TS.KG (http://ts.kg/)
+    * Cinema Online (http://cinemaonline.kg/)
+    * OnlineTV (http://onlinetv.kg/)
+    * Namba.Kinozal (http://movie.namba.kg/)
+    * Namba.Serials (http://serials.namba.kg/)
+    * Category "Web-cameras" (http://live.saimanet.kg, http://smotri.kg, http://kt.kg)
+    </description>
+    <summary lang="ru">KiloGramme - просмотр видео с любимых сайтов в зоне *.kg</summary>
+    <description lang="ru">
+KiloGramme - просмотр видео с лучших сайтов Кыргызстана. Включает в себя:
+    * TS.KG (http://ts.kg/)
+    * Cinema Online (http://cinemaonline.kg/)
+    * OnlineTV (http://onlinetv.kg/)
+    * Namba.Кинозал (http://movie.namba.kg/)
+    * Namba.Сериалы (http://serials.namba.kg/)
+    * Раздел "Веб-камеры" (http://live.saimanet.kg, http://smotri.kg, http://kt.kg)
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.torrent.kg"
+       name="torrent.kg"
+       version="1.0.0"
+       provider-name="delletenebre@gmail.com">
+    <requires>
+		<import addon="script.module.torrent.ts"/>
+		<import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Просмотр Торрент файлов с ресурса www.torrent.kg</summary>
+        <description>
+Просмотр Торрент файлов с ресурса torrent.kg (http://www.torrent.kg/)
+
+Так же, подключен ТОРРЕНТ-ТВ (http://torrent-tv.ru/) в качестве эксперимента.
+        </description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.kgontv" name="KGOnTV XBMC Add-ons" version="1.0.0" provider-name="delletenebre@gmail.com">
+  <extension point="xbmc.addon.repository" name="KGOnTV XBMC Add-ons">
+    <info compressed="true">http://xbmc-kg-ontv.googlecode.com/svn/trunk/addons.xml</info>
+    <checksum>http://xbmc-kg-ontv.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+    <datadir zip="false">http://xbmc-kg-ontv.googlecode.com/svn/trunk</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Install Add-ons from KG OnTV Add-on Repository</summary>
+    <description lang="en">Plug-ins for XBMC</description>
+    <summary lang="ru">Дополнения из репозитория KG OnTV</summary>
+    <description lang="ru">Программные дополнения для XBMC</description>
+    <disclaimer>Представляем пользователям KG-интернета программные дополнения для XBMC</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="skin.xeebo.kgontv" version="5.1.0" name="XeeBo KG OnTV Mode" provider-name="Hitcher">
+	<requires>
+		<import addon="xbmc.gui" version="4.0.0"/>
+		<import addon="script.playalbum" version="0.1.2"/>
+		<import addon="script.favourites" version="4.0.7"/>
+		<import addon="script.globalsearch" version="1.1.1"/>
+		<import addon="service.skin.widgets" version="0.0.19"/>
+		<import addon="script.tv.show.next.aired" version="5.0.4"/>
+		<import addon="script.artwork.downloader" version="12.0.12"/>
+	</requires>
+	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.00" debugging="false">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Boxee style skin [Rus Keyboard]</summary>
+		<description lang="en">Designed for ease of use with remote, mouse or touchscreen.[CR][CR]Supports -[CR][CR]Artwork Downloader / Cinema Experience / Global Search / PVR / Skin Widgets / TV Next Aired / TV Tunes</description>
+		<disclaimer lang="en">Originally coded by Wir3d/Jezz_X</disclaimer>
+		<summary lang="ru">Скин в стиле Boxee [Русская клавиатура]</summary>
+		<description lang="ru">В скин добален слой с русской виртуальной клавиатурой. Подходит только для соответствующих сборок.</description>
+		<disclaimer lang="ru">Автор оригинала: Wir3d/Jezz_X</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

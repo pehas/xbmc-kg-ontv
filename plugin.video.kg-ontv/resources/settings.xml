@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Авторизация">
+		<setting label="Билайв" type="lsep"/>
+		<setting id="blivekg_login" type="text" label="Логин" default=""  />
+		<setting id="blivekg_password" type="text" label="Пароль" default="" option="hidden" />
+
+		<setting label="Namba" type="lsep"/>
+		<setting id="nambakg_login" type="text" label="Логин" default=""  />
+		<setting id="nambakg_password" type="text" label="Пароль" default="" option="hidden" />
+
+		<setting label="OnlineTV" type="lsep"/>
+		<setting id="onlinetvkg_login" type="text" label="Логин" default=""  />
+		<setting id="onlinetvkg_password" type="text" label="Пароль" default="" option="hidden" />
+		<setting id="onlinetvkg_language" type="labelenum" label="Язык трансляции" values = "rus|eng" default="rus" />
+		<setting id="onlinetvkg_parentControlpassword" type="text" label="Пароль родительского контроля" default="" option="hidden" />
+	</category>
+	<category label="Настройки">
+		<setting label="OBS.KG" type="lsep"/>
+		<setting id="obskg_quality" type="bool" label="Предпочтительно воспроизводить в высоком качестве" default="true"/>
+		<setting label="TS.KG" type="lsep"/>
+		<setting id="tskg_news_count" type="enum" label="<Последние поступления> за период" values="Сегодня|Последние 2 дня|Последние 3 дня|Последние 4 дня|Последние 5 дней" default="1"/>
+		<setting label="Система" type="lsep"/>
+		<setting id="connection_timeout" type="labelenum" label="Таймаут соединения" values="1|2|3|4|5|6|7|8|9|10|15|20|30" default="5" />
+		<setting id="cache_timeout" type="labelenum" label="Хранить кэш (часы)" values="1|2|4|8|12|24|48" default="4" />
+		<setting label="Очистить кэш" type="action" id="logout" action="RunPlugin(plugin://plugin.video.kg-ontv/?func=clear_cache)"/>
+	</category>
+</settings>

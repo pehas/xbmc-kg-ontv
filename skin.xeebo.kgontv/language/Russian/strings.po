@@ -1,0 +1,670 @@
+# XBMC Media Center language file
+# Addon Name: XeeBo
+# Addon id: skin.xeebo
+# Addon version: 5.0.1
+# Addon Provider: Hitcher
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Skins\n"
+"Report-Msgid-Bugs-To: delletenebre@gmail.com\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: DelleTenebre\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#Home
+
+msgctxt "#31000"
+msgid "Path"
+msgstr "Путь"
+
+msgctxt "#31001"
+msgid "Random $LOCALIZE[31087]"
+msgstr "Случайные $LOCALIZE[31087]"
+
+msgctxt "#31002"
+msgid "Last login"
+msgstr ""
+
+msgctxt "#31003"
+msgid "Recently Added Movies"
+msgstr "Последние Фильмы"
+
+msgctxt "#31004"
+msgid "Recently Added Episodes"
+msgstr "Последние Эпизоды"
+
+msgctxt "#31005"
+msgid "Recently Added Albums"
+msgstr "Последние Альбомы"
+
+msgctxt "#31006"
+msgid "Unfinished Movies"
+msgstr ""
+
+msgctxt "#31007"
+msgid "Ongoing TV Shows"
+msgstr "Продолжающиеся Сериалы"
+
+msgctxt "#31008"
+msgid "Most Played Albums"
+msgstr "Часто прослушиваемые альбомы"
+
+msgctxt "#31009"
+msgid "Custom $LOCALIZE[31087]"
+msgstr "$LOCALIZE[31087]"
+
+#Window Titles
+
+msgctxt "#31011"
+msgid "Music - Files"
+msgstr "Музыка: файлы"
+
+msgctxt "#31012"
+msgid "Playlist Editor"
+msgstr ""
+
+msgctxt "#31013"
+msgid "File Manager"
+msgstr "Менеджер файлов"
+
+#Settings
+
+msgctxt "#31014"
+msgid "Home Lists"
+msgstr "Стартовые списки"
+
+msgctxt "#31015"
+msgid "Hide Focused Info Box"
+msgstr "Скрыть всплывающие подсказки"
+
+msgctxt "#31016"
+msgid "Set Row"
+msgstr "Строка"
+
+msgctxt "#31017"
+msgid "Enable Startup Playlist"
+msgstr "Воспроизводить плейлист при запуске"
+
+msgctxt "#31018"
+msgid "Clear Startup Playlist"
+msgstr "Отключить воспроизведение плейлиста при запуске"
+
+msgctxt "#31019"
+msgid "Custom Item"
+msgstr "Ярлык"
+
+msgctxt "#31020"
+msgid "Enable Alternate Home Layout"
+msgstr "Включить альтернативный Домашний экран"
+
+msgctxt "#31021"
+msgid "Use 'Posters' instead of 'Thumbs' (home episodes)"
+msgstr "Использовать 'Постеры' вместо 'Миниатюр' (сериалы)"
+
+msgctxt "#31023"
+msgid "Enable Higher Video OSD"
+msgstr "Отображать экранное меню (пауза/стоп/перемотка и т.д.) вверху"
+
+msgctxt "#31024"
+msgid "Enable Global Weather icon"
+msgstr "Показывать сведения о погоде"
+
+msgctxt "#31025"
+msgid "Enable Global Volume icon"
+msgstr "Показывать сведения об уровне громкости"
+
+msgctxt "#31026"
+msgid "Views"
+msgstr "Вид"
+
+msgctxt "#31027"
+msgid "Enable SD/HD/Sets Flags"
+msgstr "Отображать флаги SD/HD/Sets"
+
+msgctxt "#31028"
+msgid " - CLICK to download 'banner.jpg' images"
+msgstr ""
+
+msgctxt "#31029"
+msgid "Use 'banner.jpg' for Banner View"
+msgstr ""
+
+msgctxt "#31031"
+msgid "Display and video playback settings"
+msgstr "Параметры медиатеки видео, воспроизведения видео, субтитров"
+
+msgctxt "#31032"
+msgid "Music playback and internet radio settings"
+msgstr "Параметры медиатеки аудио, добавления песен, караоке"
+
+msgctxt "#31033"
+msgid "Slideshow settings"
+msgstr "Настройки слайд-шоу"
+
+msgctxt "#31034"
+msgid "Service related settings"
+msgstr "Параметры управления XBMC по UPnP и HTTP. Настройки AirPlay и Zeroconf"
+
+msgctxt "#31035"
+msgid "Look, feel and regional settings"
+msgstr "Внешний вид, язык и регион, формат отображения файлов"
+
+msgctxt "#31036"
+msgid "Hardware and system settings"
+msgstr "Настройки вывода аудио, калибровка дисплеев, дистанционное управление, отладка, блокировка"
+
+msgctxt "#31037"
+msgid "Scroll Plots, Descriptions, etc"
+msgstr "Автопрокрутка для сюжетов, обзоров и т.п."
+
+#empty string with id 31038
+
+msgctxt "#31039"
+msgid "Download and manage Addons"
+msgstr "Управление дополнениями"
+
+msgctxt "#31040"
+msgid "Images"
+msgstr "Фон"
+
+msgctxt "#31041"
+msgid "Enable Fanart"
+msgstr "Отображать фанарт"
+
+msgctxt "#31042"
+msgid "Background Panel transparency"
+msgstr "Прозрачность панели"
+
+msgctxt "#31043"
+msgid "Set music lyrics script"
+msgstr "Скрипт текстов песен"
+
+msgctxt "#31044"
+msgid "Set video subtitles script"
+msgstr "Скрипт субтитров к видео"
+
+msgctxt "#31045"
+msgid "Set background image"
+msgstr "Фоновое изображение"
+
+msgctxt "#31046"
+msgid "Reset background image"
+msgstr "Сброс фонового изображения"
+
+msgctxt "#31047"
+msgid "Set background image folder"
+msgstr "Папка фоновых изображений"
+
+msgctxt "#31048"
+msgid "Reset background image folder"
+msgstr "Сброс папки фоновых изображений"
+
+msgctxt "#31049"
+msgid "Last Login"
+msgstr ""
+
+msgctxt "#31050"
+msgid "Reset Settings"
+msgstr "Сбросить настройки"
+
+msgctxt "#31051"
+msgid "WARNING all skin settings will be reset"
+msgstr "ВНИМАНИЕ! Все настройки текущей обложки станут по умолчанию"
+
+msgctxt "#31053"
+msgid "Select your weather location"
+msgstr "Выбор городов для получения информации о погоде"
+
+msgctxt "#31054"
+msgid "Create and maintain user profiles"
+msgstr "Создание и управление профилями пользователей"
+
+msgctxt "#31055"
+msgid "Enable Video 'Watched' status"
+msgstr "Включить статус для видео 'Просмотрено'"
+
+msgctxt "#31056"
+msgid "'Press to Close' messages"
+msgstr "Сообщения 'Нажмите чтобы закрыть'"
+
+msgctxt "#31058"
+msgid "Remote"
+msgstr "Пульт"
+
+msgctxt "#31059"
+msgid "Mouse/Touchscreen"
+msgstr "Мышь/Сенсорный экран"
+
+#Dialog Text
+
+msgctxt "#31060"
+msgid "Press to close"
+msgstr "Нажмите чтобы закрыть"
+
+msgctxt "#31061"
+msgid "Press DOWN to close"
+msgstr "Нажмите ВНИЗ чтобы закрыть"
+
+msgctxt "#31062"
+msgid "Press LEFT to close"
+msgstr "Нажмите ВЛЕВО чтобы закрыть"
+
+#empty strings from id 31063 to 31069
+
+msgctxt "#31070"
+msgid "by"
+msgstr ""
+
+msgctxt "#31071"
+msgid "Release"
+msgstr ""
+
+msgctxt "#31072"
+msgid "Back"
+msgstr "Назад"
+
+msgctxt "#31073"
+msgid "mins"
+msgstr "мин"
+
+msgctxt "#31074"
+msgid "Read More"
+msgstr "Инфо"
+
+msgctxt "#31075"
+msgid "Rate"
+msgstr ""
+
+msgctxt "#31076"
+msgid "Lyrics"
+msgstr "Тексты песен"
+
+msgctxt "#31077"
+msgid "Select a part to play from."
+msgstr ""
+
+msgctxt "#31078"
+msgid "Volume Muted"
+msgstr "Звук выключен"
+
+msgctxt "#31079"
+msgid "Premiered"
+msgstr "Премьера"
+
+msgctxt "#31081"
+msgid "Close"
+msgstr "Закрыть"
+
+msgctxt "#31082"
+msgid "Aired"
+msgstr "Премьера"
+
+msgctxt "#31083"
+msgid "Timer"
+msgstr "Таймер"
+
+msgctxt "#31084"
+msgid "Movie Collection"
+msgstr "Коллекция фильмов"
+
+msgctxt "#31085"
+msgid "Set"
+msgstr "Установить"
+
+msgctxt "#31086"
+msgid "Rating"
+msgstr "Рейтинг"
+
+msgctxt "#31087"
+msgid "Items"
+msgstr "Ярлыки"
+
+msgctxt "#31088"
+msgid "MENU"
+msgstr "МЕНЮ"
+
+#empty string with id 31089
+#OSD
+
+msgctxt "#31090"
+msgid "Playing"
+msgstr "Воспроизведение"
+
+msgctxt "#31091"
+msgid "V."
+msgstr ""
+
+msgctxt "#31092"
+msgid "FFW"
+msgstr ""
+
+msgctxt "#31093"
+msgid "RWD"
+msgstr ""
+
+msgctxt "#31094"
+msgid "Menu"
+msgstr "Меню"
+
+msgctxt "#31095"
+msgid "Eject"
+msgstr "Извлечь"
+
+msgctxt "#31096"
+msgid "Bookmarks"
+msgstr "Закладки"
+
+msgctxt "#31097"
+msgid "Caching"
+msgstr ""
+
+msgctxt "#31098"
+msgid "Finish"
+msgstr "Закончится в"
+
+msgctxt "#31099"
+msgid "Frequency"
+msgstr "Частота"
+
+msgctxt "#31100"
+msgid "Channels"
+msgstr "Каналы"
+
+msgctxt "#31101"
+msgid "Codec"
+msgstr ""
+
+msgctxt "#31102"
+msgid "Bits"
+msgstr ""
+
+msgctxt "#31103"
+msgid "Karaoke Song Selector"
+msgstr "Выбор песен для караоке"
+
+msgctxt "#31104"
+msgid "Cinema"
+msgstr "Кинотеатр"
+
+msgctxt "#31105"
+msgid "Lock"
+msgstr ""
+
+#empty strings from id 31106 to 31109
+#Main Menu
+
+msgctxt "#31110"
+msgid "Now Playing"
+msgstr "Воспроизведение"
+
+msgctxt "#31111"
+msgid "Extras"
+msgstr "Служебные"
+
+#empty strings from id 31112 to 31120
+#Weather
+
+msgctxt "#31121"
+msgid "Currently"
+msgstr "Сейчас"
+
+msgctxt "#31122"
+msgid "N/A"
+msgstr "Н/Д"
+
+msgctxt "#31123"
+msgid "10 Day"
+msgstr "10 дней"
+
+msgctxt "#31124"
+msgid "Wind direction"
+msgstr "Направление ветра"
+
+msgctxt "#31125"
+msgid "Wind speed"
+msgstr "Скорость ветра"
+
+msgctxt "#31126"
+msgid "Please select a Weather Addon from the Settings"
+msgstr "Пожалуйста, выберите службу прогноза погоды в настройках"
+
+msgctxt "#31127"
+msgid "Data provided by"
+msgstr "Данные получены от"
+
+#empty strings from id 31128 to 31129
+#Browse Menu
+
+msgctxt "#31130"
+msgid "Random Off"
+msgstr ""
+
+msgctxt "#31131"
+msgid "Random On"
+msgstr ""
+
+msgctxt "#31132"
+msgid "UnFlatten"
+msgstr ""
+
+msgctxt "#31133"
+msgid "View"
+msgstr "Вид"
+
+msgctxt "#31135"
+msgid "Updates On"
+msgstr ""
+
+msgctxt "#31136"
+msgid "Updates Off"
+msgstr ""
+
+msgctxt "#31137"
+msgid "Alerts On"
+msgstr ""
+
+msgctxt "#31138"
+msgid "Alerts Off"
+msgstr ""
+
+msgctxt "#31139"
+msgid "Shuffle On"
+msgstr "Включить режим перемешивания"
+
+msgctxt "#31140"
+msgid "Shuffle Off"
+msgstr "Выключить режим перемешивания"
+
+msgctxt "#31141"
+msgid "Foreign On"
+msgstr ""
+
+msgctxt "#31142"
+msgid "Foreign Off"
+msgstr ""
+
+#empty strings from id 31143 to 31149
+#PVR
+
+msgctxt "#31150"
+msgid "Live TV"
+msgstr "ТВ"
+
+msgctxt "#31151"
+msgid "Start"
+msgstr "Старт"
+
+msgctxt "#31152"
+msgid "End"
+msgstr ""
+
+msgctxt "#31153"
+msgid "Episode Guide"
+msgstr ""
+
+msgctxt "#31154"
+msgid "TV Channels"
+msgstr "Телеканалы"
+
+msgctxt "#31155"
+msgid "Radio Channels"
+msgstr "Радиостанции"
+
+msgctxt "#31156"
+msgid "Recordings"
+msgstr "Записи"
+
+msgctxt "#31157"
+msgid "Timers"
+msgstr "Таймеры"
+
+msgctxt "#31158"
+msgid "Channel Guide"
+msgstr ""
+
+msgctxt "#31159"
+msgid "Next Guide"
+msgstr ""
+
+msgctxt "#31160"
+msgid "Search"
+msgstr "Поиск"
+
+msgctxt "#31161"
+msgid "Channels"
+msgstr "Каналы"
+
+msgctxt "#31162"
+msgid "Now Guide"
+msgstr ""
+
+msgctxt "#31163"
+msgid "Configure your PVR and EPG settings"
+msgstr "Настройки PVR и EPG"
+
+msgctxt "#31164"
+msgid "Channel Options"
+msgstr "Настройки канала"
+
+msgctxt "#31165"
+msgid "Misc Options"
+msgstr "Другие параметры"
+
+msgctxt "#31166"
+msgid "Available Groups"
+msgstr "Доступные Группы"
+
+msgctxt "#31167"
+msgid "Add Group"
+msgstr "Добавить Группу"
+
+msgctxt "#31168"
+msgid "Rename Group"
+msgstr "Переименовать Группу"
+
+msgctxt "#31169"
+msgid "Delete Group"
+msgstr "Удалить Группу"
+
+msgctxt "#31170"
+msgid "Now Recording"
+msgstr ""
+
+msgctxt "#31171"
+msgid "Next Recording"
+msgstr ""
+
+msgctxt "#31172"
+msgid "TV"
+msgstr "ТВ"
+
+msgctxt "#31173"
+msgid "Radio"
+msgstr "Радио"
+
+#empty strings from id 31174 to 31179
+#Custom Windows
+
+msgctxt "#31180"
+msgid "Artwork"
+msgstr "Обложка"
+
+#empty strings from id 31181 to 31185
+
+msgctxt "#31186"
+msgid "Artwork Downloader"
+msgstr ""
+
+msgctxt "#31187"
+msgid "Select Scraper"
+msgstr ""
+
+msgctxt "#31188"
+msgid "Video Addon"
+msgstr "Видеодополнение"
+
+msgctxt "#31189"
+msgid "Music Addon"
+msgstr "Аудиодополнение"
+
+msgctxt "#31190"
+msgid "Picture Addon"
+msgstr "Фотодополнение"
+
+msgctxt "#31191"
+msgid "Program Addon"
+msgstr "Программное дополнение"
+
+msgctxt "#31192"
+msgid "Video Playlist"
+msgstr "Плейлист Видео"
+
+msgctxt "#31193"
+msgid "Music Playlist"
+msgstr "Плейлист Музыки"
+
+msgctxt "#31194"
+msgid "Favourite"
+msgstr "Избранное"
+
+msgctxt "#31195"
+msgid "Label"
+msgstr "Студия"
+
+msgctxt "#31196"
+msgid "Icon"
+msgstr "Значок"
+
+msgctxt "#31197"
+msgid "Stop Timer"
+msgstr ""
+
+msgctxt "#31198"
+msgid "Season Banners"
+msgstr ""
+
+msgctxt "#31199"
+msgid "Channels"
+msgstr "Каналы"
+
+msgctxt "#31200"
+msgid "EPG"
+msgstr "EPG"
+
+msgctxt "#31201"
+msgid "Direction"
+msgstr "Направление"
+
+msgctxt "#31202"
+msgid "Enable Debug Info"
+msgstr "Включить отладочную информацию"
+
+msgctxt "#31203"
+msgid "Next Airs"
+msgstr "Следующая передача"

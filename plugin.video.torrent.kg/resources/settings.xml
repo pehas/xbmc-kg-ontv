@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Авторизация">
+		<setting label="torrent.kg" type="lsep"/>
+		<setting id="torrentkg_login" type="text" label="Логин" default=""  />
+		<setting id="torrentkg_password" type="text" label="Пароль" default="" option="hidden" />
+	</category>
+	<category label="Настройки">
+		<setting id="port_path" type="file" label="Местонахождение файла acestream.port" default="" />
+	</category>
+</settings>
